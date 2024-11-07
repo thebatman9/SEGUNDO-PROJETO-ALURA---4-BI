@@ -1,0 +1,24 @@
+body {
+    background-color: #022006;
+    color: rgb(254, 255, 255);
+    font-family: "Caveat", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(113, 224, 9);
+    color: white;
+    font-family: "Geist", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
